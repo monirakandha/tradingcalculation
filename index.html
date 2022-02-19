@@ -4,10 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Trading Calculator</title>
+
 </head>
 <body>
-    
+    <!-- trading calculator  -->
+    <div>
+        <h1>Trading Calculator</h1>
+        <h2>Avaliable Balance:$<span id="balance-field">00</span></h2>
+        <h2>Avaliable Bitcoin:00<span id="btc-field">BTC</span></h2>
+        <h2>Avaliable Etherium:00<span id="eth-field">ETH</span></h2>
+    </div>
+
+<!-- deposite section -->
+    <div>
+        <h1>Deposite Money</h1>
+        <form action=""> 
+            <label for="deposit-box">Deposite Money:</label><input type="text" placeholder="Enter Your Deposite Amount"  name="" id="deposit-box">
+            <button type="submit" id="deposit-btn">Deposite</button>
+        </form>
+    </div>
+
+    <!-- buy coin section  -->
+    <div>
+        <h1>Buy Coin Here</h1>
+        <div>
+            <label for="btc-box">Buy Bitcoin:</label> <input type="text" placeholder="Enter Your BTC Amount" name="" id="btc-box">
+            <button id="buy-btc">Buy BTC</button>
+        </div>
+        <br>
+        <div>
+            <label for="eth-box">Buy Etharium:</label> <input type="text" placeholder="Enter Your ETH Amount" name="" id="eth-box">
+            <button id="buy-eth">Buy ETH</button>
+        </div>
+    </div>
+
+
+    <!-- script file added  -->
     <script src="scripts/script.js"></script>
 </body>
 </html>

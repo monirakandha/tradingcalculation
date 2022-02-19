@@ -1,0 +1,1 @@
+const depositeBtn = document.getElementById('deposit-btn');
